@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300&family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300&family=Ubuntu:wght@300&family=Varela+Round&display=swap');
+body{
+    background-color: black;
+    overflow: hidden;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    font-family: 'Ubuntu',sans-serif;
+}
+
+nav ul{
+    display:flex;
+    list-style-type: none;
+    height: 45px;
+    align-items: center;
+    background-color: green;
+    border-radius: 20px;
+    margin-top:10px;
+    position: sticky;
+    color: white;
+}
+
+nav ul li{
+    font-size: 18px;
+    margin:5px;
+    padding:5px;
+    cursor: pointer;
+}
+
+#items{
+    margin: 5px;
+    padding:2px 20px;
+    font-weight: 400;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    left: 0px;
+    font-weight: bolder;
+}
+
+.brand img{
+    width:44px;
+    padding: 0px 6px;
+}
+
+.searchbar{
+    position:relative;
+    display: flex;
+    justify-content: end;
+    width:60%;
+    margin: 10px;
+    padding: 0px 20px;
+}
+
+.searchbar input{
+    border: 1px solid black;
+    border-radius: 10px;
+    
+}
+
+.container{
+    min-height: 80vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.container h1{
+    margin: auto;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    margin: 5px;
+    padding: 5px 15px;
+}
+
+.subcontainer{
+    margin:5px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    width:20%;
+    height:30vh;
+    margin: 10px;
+    justify-content: space-around;
+    cursor: pointer;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.76);  
+    backdrop-filter: blur(10px);
+    border-left:1px solid rgba(255, 255, 255, 0.856) ;
+    border-bottom:1px solid rgba(255, 255, 255, 0.856) ;
+}
+
+.box:hover{
+    width:20.5%;
+    height: 30.5vh;
+    box-shadow: 2px 4px 10px solid white;
+
+}
+h3{
+    color: black;
+    font-family: 'Ubuntu';
+    font-weight: 900;
+    text-align: center;
+}
+.box img{
+    margin: 5px;
+    padding: 5px;
+    width: 90%;
+    height: 20vh;
+    align-items: center;
+}
+
+.bottom{
+    height: 8vh;
+    position: sticky;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bottom input{
+    width:60vw;
+}
+.bottom i{
+    width:5vw;
+    height: 2.5vh;
+    justify-content: space-around;
+    cursor: pointer;
+}
